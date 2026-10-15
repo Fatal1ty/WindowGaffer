@@ -18,16 +18,16 @@
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Window Gaffer — bring the right window forward" />
+    <meta property="og:image:alt" content="Window Gaffer - bring the right window forward" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Window Gaffer" />
     <meta name="twitter:description" content="Call one exact macOS window with a global shortcut or clickable label." />
     <meta name="twitter:image" content="https://gaffer.vbd.sh/assets/social-card.png" />
-    <meta name="twitter:image:alt" content="Window Gaffer — bring the right window forward" />
+    <meta name="twitter:image:alt" content="Window Gaffer - bring the right window forward" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png" />
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
-    <link rel="stylesheet" href="styles.css?v=13" />
+    <link rel="stylesheet" href="styles.css?v=14" />
     <title>Window Gaffer | Bring the right window forward</title>
     <script type="application/ld+json">
       {
@@ -36,6 +36,7 @@
         "name": "Window Gaffer",
         "applicationCategory": "ProductivityApplication",
         "operatingSystem": "macOS 27 or later",
+        "downloadUrl": "https://github.com/Fatal1ty/WindowGaffer/releases/latest",
         "description": "A native macOS menu-bar utility that focuses registered windows with clickable overlays or global shortcuts."
       }
     </script>
@@ -56,7 +57,7 @@
         <a href="#method">Method</a>
         <a href="#controls">Controls</a>
         <a href="#privacy">Privacy</a>
-        <a class="nav-download" href="#download">Download</a>
+        <a class="nav-download" href="https://github.com/Fatal1ty/WindowGaffer/releases/latest">Download</a>
       </nav>
     </header>
 
@@ -66,7 +67,7 @@
           <h1><span>Bring the right</span><span>window forward.</span></h1>
           <p class="hero-summary">Call one exact window with a global shortcut or a small label that stays across Spaces.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="downloads/Window-Gaffer.zip" download>Download for macOS</a>
+            <a class="button button-primary" href="https://github.com/Fatal1ty/WindowGaffer/releases/latest">Download for macOS</a>
             <a class="text-link" href="#method">Watch the switch</a>
           </div>
         </div>
@@ -200,11 +201,12 @@
         <div class="download-mark"><img src="assets/app-icon.png" alt="Window Gaffer app icon" width="512" height="512" loading="lazy" /></div>
         <div class="download-copy">
           <h2>Put the right window in the light.</h2>
-          <p>Download the current developer build for macOS 27.</p>
-          <a class="button button-primary button-large" href="downloads/Window-Gaffer.zip" download>Download for macOS</a>
+          <p>Download the latest release for macOS 27 from GitHub.</p>
+          <a class="button button-primary button-large" href="https://github.com/Fatal1ty/WindowGaffer/releases/latest">Download for macOS</a>
           <p class="download-note">macOS may ask you to confirm opening this developer build.</p>
           <details class="source-disclosure">
             <summary>Build from source</summary>
+            <p class="source-link">Clone the repository or read the <a href="https://github.com/Fatal1ty/WindowGaffer#build-from-source">complete build instructions on GitHub</a>.</p>
             <div class="command-row"><code>./Scripts/build-app.sh</code><button class="copy-button" type="button" data-copy-command="./Scripts/build-app.sh">Copy</button></div>
             <p>Requires Xcode 27 and the macOS 27 SDK.</p>
           </details>
@@ -214,7 +216,12 @@
 
     <footer class="site-footer">
       <div class="footer-brand"><img src="assets/brand-mark.svg" alt="" width="42" height="42" /><strong>Window Gaffer</strong></div>
-      <nav aria-label="Footer navigation"><a href="#method">Method</a><a href="#privacy">Privacy</a><a href="#top">Back to top</a></nav>
+      <nav aria-label="Footer navigation">
+        <a href="#method">Method</a>
+        <a href="#privacy">Privacy</a>
+        <a class="footer-github" href="https://github.com/Fatal1ty/WindowGaffer"><img src="assets/github.svg" alt="" width="16" height="16" /><span>GitHub</span></a>
+        <a href="#top">Back to top</a>
+      </nav>
       <p>&copy; <span data-year>2026</span> Window Gaffer</p>
     </footer>
     <div class="toast" role="status" aria-live="polite" data-toast></div>

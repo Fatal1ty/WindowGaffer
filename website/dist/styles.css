@@ -1225,6 +1225,26 @@ button {
   color: var(--milk);
 }
 
+.source-disclosure .source-link {
+  margin: 0 0 0.85rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.source-link a {
+  color: var(--milk);
+  text-decoration: underline;
+  text-decoration-color: var(--line-warm);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  transition: color 180ms ease, text-decoration-color 180ms ease;
+}
+
+.source-link a:hover {
+  color: var(--tungsten);
+  text-decoration-color: currentColor;
+}
+
 .command-row {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -1286,6 +1306,24 @@ button {
 .site-footer a { transition: color 180ms ease; }
 .site-footer a:hover { color: var(--tungsten); }
 .site-footer p { margin: 0; }
+
+.footer-github {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+}
+
+.footer-github img {
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.72;
+  transition: opacity 180ms ease, transform 180ms var(--ease);
+}
+
+.footer-github:hover img {
+  opacity: 1;
+  transform: translateY(-1px);
+}
 
 .toast {
   position: fixed;

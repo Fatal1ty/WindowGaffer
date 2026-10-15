@@ -24,10 +24,13 @@ release archives are intentionally excluded by `.gitignore`. Publish signed or
 notarized application archives through GitHub Releases instead of committing
 them to the source tree.
 
-The website currently expects a local archive at
-`website/dist/downloads/Window-Gaffer.zip`. Before deploying the website from
-GitHub, either provide that file during deployment or change the download links
-to a GitHub Release asset.
+All website download links point to the latest GitHub release:
+
+`https://github.com/Fatal1ty/WindowGaffer/releases/latest`
+
+Publish at least one release that GitHub recognizes as the latest before
+deploying the website. Attach the distributable application archive to that
+release; do not add it to `website/dist` or commit it to the repository.
 
 ## Verify a change
 
