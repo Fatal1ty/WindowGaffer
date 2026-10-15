@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="beam" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFC66D" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#FFC66D" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="active" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F4EBDD"/>
+      <stop offset="1" stop-color="#FFC66D"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="#181512"/>
+  <rect x="43" y="48" width="126" height="98" rx="19" fill="#2B241F" stroke="#806650" stroke-width="5"/>
+  <rect x="68" y="76" width="133" height="102" rx="20" fill="#3A2E26" stroke="#A9825D" stroke-width="5"/>
+  <path d="M230 20 112 143l104 34z" fill="url(#beam)"/>
+  <rect x="92" y="107" width="126" height="98" rx="20" fill="url(#active)" stroke="#FFF6E8" stroke-width="6"/>
+  <circle cx="112" cy="126" r="5" fill="#A95636"/>
+  <circle cx="129" cy="126" r="5" fill="#E89A3C"/>
+  <circle cx="146" cy="126" r="5" fill="#F4EBDD"/>
+</svg>

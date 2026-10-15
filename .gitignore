@@ -1,0 +1,26 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Swift Package Manager build output
+/.build*/
+
+# Local Xcode state
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.swiftpm/xcode/xcuserdata/
+
+# Packaged application output
+*.app/
+*.dSYM/
+*.dmg
+*.pkg
+
+# Release archives belong in GitHub Releases, not in source control.
+/website/dist/downloads/*.zip
+
+# Local working files that are not part of the source distribution.
+/.local-archive/
