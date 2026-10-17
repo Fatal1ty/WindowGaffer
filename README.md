@@ -31,6 +31,17 @@ workspace stays exactly where it was.
 - **Automatic reconnection.** If a target disappears, its marker stays muted
   and reconnects when the window returns.
 
+### Switch directly between game clients
+
+Playing the same game through several windows? Give each character its own
+hotkey or overlay label and bring the right client forward without cycling
+through a stack of identical-looking windows. This works especially well for
+games such as **EVE Online**, where you may play several characters at once and
+need to switch between them quickly.
+
+Window Gaffer only focuses the window you choose. It does not automate gameplay
+or broadcast input between clients.
+
 ## How it works
 
 1. Open Window Gaffer from the menu bar and choose a window.
