@@ -1,4 +1,10 @@
-![Window Gaffer — bring the right window forward](Assets/WindowGaffer-Logo-Horizontal.svg)
+<p align="center">
+  <img src="Assets/WindowGaffer-README-Icon-macOS-27.png" width="180" alt="Window Gaffer app icon">
+</p>
+
+<h1 align="center">Window Gaffer</h1>
+
+<p align="center">Bring the right window forward.</p>
 
 <p align="center">
   <a href="https://gaffer.vbd.sh/">Website</a> ·
