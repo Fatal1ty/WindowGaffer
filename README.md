@@ -18,9 +18,10 @@ Most switchers stop at the application. Window Gaffer goes straight to the
 window you meant — the project, terminal, game, conversation, or dashboard you
 want right now.
 
-Give a window a shortcut, leave a compact label at the edge of the screen, or
-use both. One action brings that window to the front while the rest of your
-workspace stays exactly where it was.
+Give a window a shortcut, place a compact label anywhere on the screen, or use
+both. Labels snap to screen edges and nearby overlays as you arrange them. One
+action brings that window to the front while the rest of your workspace stays
+exactly where it was.
 
 ## Built for window-heavy workflows
 
@@ -32,8 +33,8 @@ workspace stays exactly where it was.
   doing.
 - **Profiles for every context.** Switch complete sets of windows, labels, and
   shortcuts for work, focus, or play.
-- **A layout that stays yours.** Drag, dock, align, resize, rename, and lock
-  overlays in place.
+- **A layout that stays yours.** Place overlays anywhere, align them with
+  magnetic guides, resize and rename them, then lock the layout in place.
 - **Automatic reconnection.** If a target disappears, its marker stays muted
   and reconnects when the window returns.
 
